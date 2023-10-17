@@ -2,9 +2,36 @@
 <html>
 <head>
     <title>Travel Planner</title>
+    <style>
+        body {
+            background-color: lightblue;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 40px;
+        }
+
+        /* Set the image */
+        img {
+            width: 40%; 
+            max-width: 500px; 
+            border-radius: 15px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            margin: 0;
+        }
+        .content {
+            width: 50%;
+        }
+    </style>
 </head>
 <body>
-    <h1>Travel Planner</h1>
-    <p><a href="/cgi-bin/travel.sh">Check Travel Plans</a></p>
+    <div class="content">
+        <h1>Travel Planner</h1>
+        <p><a href="/cgi-bin/travel.sh">Check Travel Plans</a></p>
+    </div>
+    <!-- Add the image on the right -->
+    <img src="https://i.ytimg.com/vi/9vP-D5bBNaA/maxresdefault.jpg" alt="Travel Image">
 </body>
 </html>
