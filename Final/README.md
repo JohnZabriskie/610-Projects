@@ -1,4 +1,4 @@
-# Travel Planner Docker Project FINAL
+# FINAL Travel Planner Docker Project 
 
 To run this project, please use the following commands:
 
